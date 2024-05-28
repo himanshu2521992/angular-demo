@@ -1,1 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+}
+
+mat-card {
+  margin: 20px;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.product-card {
+  width: 300px;
+  margin: 10px;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
